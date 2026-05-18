@@ -35,12 +35,8 @@ export default function Register() {
 
   return (
     <div className="min-h-screen bg-navy-50 flex flex-col items-center justify-center px-6">
-      <div className="font-display italic text-2xl text-navy-900 mb-8 flex items-center gap-2.5 select-none">
-        <span className="w-1.75 h-1.75 rounded-full bg-navy-700 shrink-0" />
-        ChatApp
-      </div>
       <div className="w-full max-w-100 bg-white border border-navy-100 rounded-xl px-8 py-9 shadow-[0_4px_24px_rgba(10,22,40,0.08)] relative overflow-hidden animate-card-in">
-        <h2 className="font-display text-[1.4rem] font-bold text-navy-900 mb-6">
+        <h2 className="font-display text-[1.4rem] font-bold text-navy-900 mb-6 text-center">
           Create an account
         </h2>
 

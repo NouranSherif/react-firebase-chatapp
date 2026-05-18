@@ -101,7 +101,7 @@ export default function Home() {
   return (
     <div className="flex flex-col h-screen bg-navy-50 overflow-hidden">
       <nav className="flex items-center justify-between px-6 h-[58px] bg-navy-900 shrink-0 shadow-md">
-        <div className="font-display italic text-xl text-white flex items-center gap-2.5 select-none">
+        <div className="font-sans text-xl text-white flex items-center gap-2.5 select-none">
           <span className="w-1.5 h-1.5 rounded-full bg-sky-400 shrink-0 animate-pulse" />
           ChatApp
         </div>
